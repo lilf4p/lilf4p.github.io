@@ -75,6 +75,8 @@ Stanza 308, Dipartimento di Informatica
 
 [params]
 	ShowLanguageSelector = true
+	disableThemeToggle = false
+	hideSiteTitle = true
 
 	[[params.socialIcons]]
 	name = "github"

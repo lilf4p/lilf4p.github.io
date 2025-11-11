@@ -1,0 +1,49 @@
+/* Custom CSS for mobile navbar alignment */
+@media (max-width: 768px) {
+	.nav {
+		display: flex !important;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		padding: 0 10px;
+	}
+
+	.logo-switches {
+		order: 1;
+		display: flex !important;
+		align-items: center;
+		gap: 15px;
+		opacity: 1 !important;
+		visibility: visible !important;
+		flex-shrink: 0;
+		margin-right: 15px;
+	}
+
+	.logo-switches li {
+		display: inline-flex !important;
+		visibility: visible !important;
+		margin: 0 5px;
+	}
+
+	.logo-switches ul {
+		display: flex !important;
+		gap: 10px;
+		margin: 0;
+		padding: 0;
+	}
+
+	#menu {
+		order: 2;
+		margin-left: auto;
+	}
+
+	.menu {
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	/* Hide site title on mobile only */
+	.logo a:not(.button):not([id]) {
+		display: none !important;
+	}
+}
