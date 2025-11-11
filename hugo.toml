@@ -97,3 +97,7 @@ Stanza 308, Dipartimento di Informatica
 	[[params.socialIcons]]
 	name = "email"
 	url = "mailto:leonardo.stoppani@phd.unipi.it"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
