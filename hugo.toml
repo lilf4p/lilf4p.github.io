@@ -37,7 +37,7 @@ enableEmoji = true
 			url = "/archives/"
 			weight = 4
 		[[languages.en.menu.main]]
-			name = "Search"
+			name = "🔍"
 			url = "/search/"
 			weight = 5
 
@@ -69,7 +69,7 @@ enableEmoji = true
 			url = "/it/archives/"
 			weight = 4
 		[[languages.it.menu.main]]
-			name = "Cerca"
+			name = "🔍"
 			url = "/it/search/"
 			weight = 5
 
