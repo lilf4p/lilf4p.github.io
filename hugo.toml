@@ -10,15 +10,15 @@ enableEmoji = true
 
 [languages]
 	[languages.en]
-		languageName = "🇬🇧 English"
+		languageName = "English"
 		weight = 1
 		[languages.en.params]
 			[languages.en.params.homeInfoParams]
 				Title = "Leonardo Stoppani"
 				Content = '''
-PhD Student at University of Pisa
+👨🏻‍🎓 PhD Student at University of Pisa
 
-Room 308, Department of Computer Science
+📌 Room 308, Department of Computer Science
 '''
 		[[languages.en.menu.main]]
 			name = "Home"
@@ -42,15 +42,15 @@ Room 308, Department of Computer Science
 			weight = 5
 
 	[languages.it]
-		languageName = "🇮🇹 Italiano"
+		languageName = "Italiano"
 		weight = 2
 		[languages.it.params]
 			[languages.it.params.homeInfoParams]
 				Title = "Leonardo Stoppani"
 				Content = '''
-Dottorando all'Università di Pisa
+👨🏻‍🎓 Dottorando all'Università di Pisa
 
-Stanza 308, Dipartimento di Informatica
+📌 Stanza 308, Dipartimento di Informatica
 '''
 		[[languages.it.menu.main]]
 			name = "Home"
@@ -87,8 +87,8 @@ Stanza 308, Dipartimento di Informatica
 	url = "https://www.linkedin.com/in/leonardo-stoppani"
 
 	[[params.socialIcons]]
-	name = "twitter"
-	url = "https://twitter.com/lilf4p"
+	name = "x"
+	url = "https://x.com/lilf4p"
 
 	[[params.socialIcons]]
 	name = "email"
