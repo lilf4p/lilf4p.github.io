@@ -1,0 +1,99 @@
+baseURL = 'https://lilf4p.github.io/'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+title = "Leonardo's Webpage"
+theme = 'PaperMod'
+enableEmoji = true
+
+[outputs]
+	home = ["HTML", "RSS", "JSON"]
+
+[languages]
+	[languages.en]
+		languageName = "🇬🇧 English"
+		weight = 1
+		[languages.en.params]
+			[languages.en.params.homeInfoParams]
+				Title = "Leonardo Stoppani"
+				Content = '''
+PhD Student at University of Pisa
+
+Room 308, Department of Computer Science
+'''
+		[[languages.en.menu.main]]
+			name = "Home"
+			url = "/"
+			weight = 1
+		[[languages.en.menu.main]]
+			name = "Posts"
+			url = "/posts/"
+			weight = 2
+		[[languages.en.menu.main]]
+			name = "Tags"
+			url = "/tags/"
+			weight = 3
+		[[languages.en.menu.main]]
+			name = "Archive"
+			url = "/archives/"
+			weight = 4
+		[[languages.en.menu.main]]
+			name = "Search"
+			url = "/search/"
+			weight = 5
+
+	[languages.it]
+		languageName = "🇮🇹 Italiano"
+		weight = 2
+		[languages.it.params]
+			[languages.it.params.homeInfoParams]
+				Title = "Leonardo Stoppani"
+				Content = '''
+Dottorando all'Università di Pisa
+
+Stanza 308, Dipartimento di Informatica
+'''
+				imageUrl = "🐱"
+				imageTitle = "Gatto"
+				imageWidth = 120
+				imageHeight = 120
+		[[languages.it.menu.main]]
+			name = "Home"
+			url = "/it/"
+			weight = 1
+		[[languages.it.menu.main]]
+			name = "Articoli"
+			url = "/it/posts/"
+			weight = 2
+		[[languages.it.menu.main]]
+			name = "Tag"
+			url = "/it/tags/"
+			weight = 3
+		[[languages.it.menu.main]]
+			name = "Archivio"
+			url = "/it/archives/"
+			weight = 4
+		[[languages.it.menu.main]]
+			name = "Cerca"
+			url = "/it/search/"
+			weight = 5
+
+[params]
+	ShowLanguageSelector = true
+	label.icon = "🐱"
+	label.text = "Leonardo's Webpage"
+
+	[[params.socialIcons]]
+	name = "github"
+	url = "https://github.com/lilf4p"
+
+	[[params.socialIcons]]
+	name = "linkedin"
+	url = "https://www.linkedin.com/in/leonardo-stoppani"
+
+	[[params.socialIcons]]
+	name = "twitter"
+	url = "https://twitter.com/lilf4p"
+
+	[[params.socialIcons]]
+	name = "email"
+	url = "mailto:leonardo.stoppani@phd.unipi.it"
