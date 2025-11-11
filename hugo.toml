@@ -52,10 +52,6 @@ Dottorando all'Università di Pisa
 
 Stanza 308, Dipartimento di Informatica
 '''
-				imageUrl = "🐱"
-				imageTitle = "Gatto"
-				imageWidth = 120
-				imageHeight = 120
 		[[languages.it.menu.main]]
 			name = "Home"
 			url = "/it/"
@@ -79,8 +75,6 @@ Stanza 308, Dipartimento di Informatica
 
 [params]
 	ShowLanguageSelector = true
-	label.icon = "🐱"
-	label.text = "Leonardo's Webpage"
 
 	[[params.socialIcons]]
 	name = "github"
@@ -101,3 +95,8 @@ Stanza 308, Dipartimento di Informatica
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[params.meta]
+  description = "Leonardo Stoppani's personal webpage"
+  author = "Leonardo Stoppani"
+  favicon = false
