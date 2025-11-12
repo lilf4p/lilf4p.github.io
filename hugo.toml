@@ -18,7 +18,7 @@ enableEmoji = true
 				Content = '''
 👨🏻‍🎓 PhD Student at University of Pisa
 
-📌 Room 308, Department of Computer Science
+📌 Room 304, Department of Computer Science
 '''
 		[[languages.en.menu.main]]
 			name = "Home"
@@ -50,7 +50,7 @@ enableEmoji = true
 				Content = '''
 👨🏻‍🎓 Dottorando all'Università di Pisa
 
-📌 Stanza 308, Dipartimento di Informatica
+📌 Stanza 304, Dipartimento di Informatica
 '''
 		[[languages.it.menu.main]]
 			name = "Home"
