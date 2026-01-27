@@ -16,7 +16,7 @@ enableEmoji = true
 			[languages.en.params.homeInfoParams]
 				Title = "Leonardo Stoppani"
 				Content = '''
-👨🏻‍🎓 PhD Student at University of Pisa
+👨🏻‍🎓 PhD Student in Computer Science at University of Pisa
 
 📌 Room 304, Department of Computer Science
 '''
@@ -77,6 +77,12 @@ enableEmoji = true
 	ShowLanguageSelector = true
 	disableThemeToggle = false
 	hideSiteTitle = true
+	profilePicture = "images/profile.jpg"
+	profileImageAlt = "It's me :)!"
+
+	[[params.socialIcons]]
+	name = "googlescholar"
+	url = "https://scholar.google.com/citations?view_op=list_works&hl=it&user=7g_ykFMAAAAJ&gmla=APjjwuaB22qMKQ-CI7nMSnmDL5MLeB_V6xzfquliTndpC6ltu3hH9rqkcIBD-40iykgmxUIWZ0Zy4W4_YSU6fbQRxBssx8M07F7issWuTNiHko_ejDIWsKfK2OE"
 
 	[[params.socialIcons]]
 	name = "github"
@@ -85,10 +91,6 @@ enableEmoji = true
 	[[params.socialIcons]]
 	name = "linkedin"
 	url = "https://www.linkedin.com/in/leonardo-stoppani"
-
-	[[params.socialIcons]]
-	name = "x"
-	url = "https://x.com/lilf4p"
 
 	[[params.socialIcons]]
 	name = "email"

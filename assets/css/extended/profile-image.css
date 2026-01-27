@@ -1,0 +1,14 @@
+/* Profile image next to title/content on home page */
+.home-info-wrapper {
+	display: flex;
+	align-items: flex-start;
+}
+
+.home-info-profile-img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	margin-right: 2rem;
+	margin-top: 0.5rem;
+}

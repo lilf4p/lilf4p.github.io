@@ -1,0 +1,21 @@
+{{- /* Site-level override of theme home_info to add a profile image on the left. */ -}}
+{{- with site.Params.homeInfoParams }}
+<article class="first-entry home-info">
+	<div class="home-info-wrapper">
+		{{- $img := site.Params.profilePicture | default "images/profile.jpg" -}}
+		<img src="{{ $img | relURL }}" class="home-info-profile-img"
+			alt="{{ site.Params.profileImageAlt | default site.Title }}">
+		<div>
+			<header class="entry-header">
+				<h1>{{ .Title | markdownify }}</h1>
+			</header>
+			<div class="entry-content">
+				{{ .Content | markdownify }}
+			</div>
+			<footer class="entry-footer">
+				{{ partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) }}
+			</footer>
+		</div>
+	</div>
+</article>
+{{- end -}}
