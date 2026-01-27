@@ -48,7 +48,7 @@ enableEmoji = true
 			[languages.it.params.homeInfoParams]
 				Title = "Leonardo Stoppani"
 				Content = '''
-👨🏻‍🎓 Dottorando all'Università di Pisa
+👨🏻‍🎓 Dottorando in Informatica presso Università di Pisa
 
 📌 Stanza 304, Dipartimento di Informatica
 '''
