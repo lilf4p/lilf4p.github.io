@@ -8,6 +8,11 @@ enableEmoji = true
 [outputs]
 	home = ["HTML", "RSS", "JSON"]
 
+[markup]
+	[markup.goldmark]
+		[markup.goldmark.renderer]
+			unsafe = true
+
 [languages]
 	[languages.en]
 		languageName = "English"
@@ -25,21 +30,25 @@ enableEmoji = true
 			url = "/"
 			weight = 1
 		[[languages.en.menu.main]]
+			name = "About Me"
+			url = "/about/"
+			weight = 2
+		[[languages.en.menu.main]]
 			name = "Posts"
 			url = "/posts/"
-			weight = 2
+			weight = 3
 		[[languages.en.menu.main]]
 			name = "Tags"
 			url = "/tags/"
-			weight = 3
+			weight = 4
 		[[languages.en.menu.main]]
 			name = "Archive"
 			url = "/archives/"
-			weight = 4
+			weight = 5
 		[[languages.en.menu.main]]
 			name = "🔍"
 			url = "/search/"
-			weight = 5
+			weight = 6
 
 	[languages.it]
 		languageName = "Italiano"
@@ -57,21 +66,25 @@ enableEmoji = true
 			url = "/it/"
 			weight = 1
 		[[languages.it.menu.main]]
+			name = "Chi Sono"
+			url = "/it/about/"
+			weight = 2
+		[[languages.it.menu.main]]
 			name = "Articoli"
 			url = "/it/posts/"
-			weight = 2
+			weight = 3
 		[[languages.it.menu.main]]
 			name = "Tag"
 			url = "/it/tags/"
-			weight = 3
+			weight = 4
 		[[languages.it.menu.main]]
 			name = "Archivio"
 			url = "/it/archives/"
-			weight = 4
+			weight = 5
 		[[languages.it.menu.main]]
 			name = "🔍"
 			url = "/it/search/"
-			weight = 5
+			weight = 6
 
 [params]
 	ShowLanguageSelector = true

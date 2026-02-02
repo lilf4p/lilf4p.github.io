@@ -1,0 +1,21 @@
+/* Mobile: place profile image above the title and make it smaller */
+@media (max-width: 640px) {
+  .home-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-info-profile-img {
+    width: 88px;
+    height: 88px;
+    margin-right: 0;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+
+  /* Center the text content under the image on narrow screens */
+  .home-info-wrapper > div {
+    text-align: center;
+  }
+}
