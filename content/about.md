@@ -3,7 +3,7 @@ title: "About Me"
 url: "/about/"
 summary: about me
 ---
-<img src="/images/profile.jpg" alt="Leonardo Stoppani" style="float: left; margin-right: 50px; margin-bottom: 5px; border-radius: 5px; max-width: 500px;">
+<img src="/images/profile.jpg" alt="Leonardo Stoppani" style="float: left; margin-right: 30px; margin-bottom: 5px; border-radius: 5px; max-width: 500px;">
 
 Leonardo Stoppani is a PhD Candidate at the University of Pisa, investigating the intersection of Deep Learning and Neuro-Symbolic AI. His current research focuses on improving out-of-distribution performance in generative Diffusion Models. By integrating symbolic logic with neural architectures, Leonardo aims to enhance model reliability and stability in complex, unseen environments.
 

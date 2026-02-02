@@ -15,7 +15,7 @@
   }
 
   /* Center the text content under the image on narrow screens */
-  .home-info-wrapper > div {
+  .home-info-wrapper>div {
     text-align: center;
   }
 }
