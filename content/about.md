@@ -9,6 +9,4 @@ Leonardo Stoppani is a PhD Candidate at the University of Pisa, investigating De
 
 Leonardo holds a Master of Science and a Bachelor of Science in Computer Science. Prior to his doctoral work, he completed a research fellowship at the University of Pisa focused on AI techniques in Civil Engineering applications. During this fellowship, he successfully developed Computer Vision systems designed for structural defect detection.
 
-His experience extends to industrial research through an internship at H&M AI Research. During this time, Leonardo worked on the automatic generation of floorplans for retail stores. This innovative project on generative design culminated in his first accepted publication at the European Symposium on Artificial Neural Networks (ESANN 2026).
-
-When he is not working on his research, Leonardo can typically be found training at the gym.
+His experience extends to industrial research through an internship at H&M AI Research. During this time, Leonardo worked on the automatic generation of floorplans for retail stores using Conditional Diffusion Models. This project resulted in a publication at the European Symposium on Artificial Neural Networks 2026.
