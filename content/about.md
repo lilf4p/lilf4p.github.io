@@ -5,7 +5,7 @@ summary: about me
 ---
 <img src="/images/profile.jpg" alt="Leonardo Stoppani" style="float: left; margin-right: 30px; margin-bottom: 5px; border-radius: 5px; max-width: 500px;">
 
-Leonardo Stoppani is a PhD Candidate at the University of Pisa, investigating the intersection of Deep Learning and Neuro-Symbolic AI. His current research focuses on improving out-of-distribution performance in generative Diffusion Models. By integrating symbolic logic with neural architectures, Leonardo aims to enhance model reliability and stability in complex, unseen environments.
+Leonardo Stoppani is a PhD Candidate at the University of Pisa, investigating Deep Learning and Generative Models. His current research focuses on Diffusion Models. By advancing neural architectures, Leonardo aims to enhance model reliability and stability in complex, unseen environments.
 
 Leonardo holds a Master of Science and a Bachelor of Science in Computer Science. Prior to his doctoral work, he completed a research fellowship at the University of Pisa focused on AI techniques in Civil Engineering applications. During this fellowship, he successfully developed Computer Vision systems designed for structural defect detection.
 
